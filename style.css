@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+}
+.volumeIcon{
+    position: absolute;
+    top: 10px;
+}
+.big-zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid rgb(102, 51, 153); */
+    position: relative;
+    overflow: hidden; 
+}
+.random-img {
+    width: 240px; 
+    height: 240px; 
+    position: absolute; 
+}
+.gif-div {
+    width: 300px; 
+    height: 300px; 
+  }
+.small-zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 40vh;
+    /* border: 2px solid rgb(240, 128, 128); */
+}
